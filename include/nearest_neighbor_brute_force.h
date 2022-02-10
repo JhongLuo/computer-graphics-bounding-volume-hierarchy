@@ -15,10 +15,10 @@
 //   sqrD  corresponding squared distance
 //
 void nearest_neighbor_brute_force(
-  const Eigen::MatrixXd & points,
-  const Eigen::RowVector3d & query,
-  int & I,
-  double & sqrD);
+	const Eigen::MatrixXd& points,
+	const Eigen::RowVector3d& query,
+	int& I,
+	double& sqrD);
 
 #endif
 

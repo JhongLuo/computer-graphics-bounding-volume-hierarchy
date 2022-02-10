@@ -19,11 +19,11 @@
 //   descendant  if minimal distance was found at a descendant, pass along a
 //     pointer to that descendant (only necessary for hierarchical Objects)
 bool point_AABBTree_squared_distance(
-  const Eigen::RowVector3d & query,
-  const std::shared_ptr<AABBTree> & root,
-  const double min_sqrd,
-  const double max_sqrd,
-  double & sqrd,
-  std::shared_ptr<Object> & descendant);
+	const Eigen::RowVector3d& query,
+	const std::shared_ptr<AABBTree>& root,
+	const double min_sqrd,
+	const double max_sqrd,
+	double& sqrd,
+	std::shared_ptr<Object>& descendant);
 
 #endif

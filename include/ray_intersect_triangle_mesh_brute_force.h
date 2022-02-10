@@ -17,12 +17,12 @@
 //   hit_f  index into F of triangle that was hit
 // Returns true iff a valid hit was recorded
 bool ray_intersect_triangle_mesh_brute_force(
-  const Ray & ray,
-  const Eigen::MatrixXd & V,
-  const Eigen::MatrixXi & F,
-  const double min_t,
-  const double max_t,
-  double & hit_t,
-  int & hit_f);
+	const Ray& ray,
+	const Eigen::MatrixXd& V,
+	const Eigen::MatrixXi& F,
+	const double min_t,
+	const double max_t,
+	double& hit_t,
+	int& hit_f);
 
 #endif

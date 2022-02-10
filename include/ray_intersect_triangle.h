@@ -16,12 +16,12 @@
 //   t  parametric distance along ray to hit
 // Returns true if ray intersects the triangle between min_t and max_t
 bool ray_intersect_triangle(
-  const Ray & ray,
-  const Eigen::RowVector3d & A,
-  const Eigen::RowVector3d & B,
-  const Eigen::RowVector3d & C,
-  const double min_t,
-  const double max_t,
-  double & t);
+	const Ray& ray,
+	const Eigen::RowVector3d& A,
+	const Eigen::RowVector3d& B,
+	const Eigen::RowVector3d& C,
+	const double min_t,
+	const double max_t,
+	double& t);
 #endif
 

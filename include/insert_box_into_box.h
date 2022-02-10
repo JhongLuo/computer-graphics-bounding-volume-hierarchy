@@ -10,6 +10,6 @@
 // Outputs:
 //   B  bounding box grown to include original contents and A
 void insert_box_into_box(
-  const BoundingBox & A,
-  BoundingBox & B);
+	const BoundingBox& A,
+	BoundingBox& B);
 #endif

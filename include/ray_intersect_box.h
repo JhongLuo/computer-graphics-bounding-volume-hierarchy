@@ -16,8 +16,8 @@
 // Returns true if ray intersects the box between min_t and max_t
 
 bool ray_intersect_box(
-  const Ray & ray,
-  const BoundingBox& box,
-  const double min_t,
-  const double max_t);
+	const Ray& ray,
+	const BoundingBox& box,
+	const double min_t,
+	const double max_t);
 #endif

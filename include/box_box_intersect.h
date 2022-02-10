@@ -8,6 +8,6 @@
 //   B  second bounding box
 // Returns true iff bounding boxes overlap
 bool box_box_intersect(
-  const BoundingBox & A,
-  const BoundingBox & B);
+	const BoundingBox& A,
+	const BoundingBox& B);
 #endif

@@ -14,8 +14,8 @@
 //   leaf_pairs  list of pairs {leaf_A,leaf_B} indicating that the box of leaf_A
 //     intersects the box of leaf_B
 void find_all_intersecting_pairs_using_AABBTrees(
-  const std::shared_ptr<AABBTree> & rootA,
-  const std::shared_ptr<AABBTree> & rootB,
-  std::vector<std::pair<std::shared_ptr<Object>,std::shared_ptr<Object> > > & 
-    leaf_pairs);
+	const std::shared_ptr<AABBTree>& rootA,
+	const std::shared_ptr<AABBTree>& rootB,
+	std::vector<std::pair<std::shared_ptr<Object>, std::shared_ptr<Object> > >&
+	leaf_pairs);
 #endif

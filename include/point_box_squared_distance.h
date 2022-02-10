@@ -9,6 +9,6 @@
 //   box  3D axis-aligned bounding box
 // Returns squared distance to closest point on bounding box to query
 double point_box_squared_distance(
-  const Eigen::RowVector3d & query,
-  const BoundingBox & box);
+	const Eigen::RowVector3d& query,
+	const BoundingBox& box);
 #endif
